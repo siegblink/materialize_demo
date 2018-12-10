@@ -1,0 +1,76 @@
+div.card {
+  margin: 0 0 1rem 0;
+}
+
+div.row {
+  margin-top: 1rem;
+}
+
+div.col.s2 {
+  padding-left: 0;
+  padding-right: 0.75rem;
+}
+
+h5 {
+  margin: 1rem 0 1rem 1rem;
+}
+
+a.blue-text {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+div.card-image {
+  margin: 0 1rem 0 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+  div.col.s12.m4.l3.card {
+    margin-left: 1.5rem;
+    max-width: 92%;
+  }
+}
+
+@media only screen and (max-width: 1140px) {
+  span.card-title.blue-text {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  p.black-text {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  div.col.l6.s12 {
+    max-block-size: 10%;
+  }
+}
+
+/* div.col.s12.m4.l3.card {
+  height: 1600px;
+} */
+
+div.card.globe {
+  margin: 0 0.75rem 5rem;
+}
+
+div.card-action.action-links {
+  display: flex;
+  justify-content: space-around;
+}
+
+div.col.s12.m8.l9 hr {
+  border: 0.5px solid grey;
+  margin-bottom: 5rem;
+}
+
+@media only screen and (max-width: 1070px) {
+  img.globe-logo {
+    max-width: 80%;
+  }
+}

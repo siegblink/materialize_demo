@@ -17,18 +17,15 @@ h5 {
 
 a.blue-text {
   font-size: 24px;
-  font-weight: 300;
+  font-weight: 400;
+}
+
+.menu-text {
+  margin-bottom: 5px;
 }
 
 div.card-image {
   margin: 0 1rem 0 1rem;
-}
-
-@media only screen and (max-width: 600px) {
-  div.col.s12.m4.l3.card {
-    margin-left: 1.5rem;
-    max-width: 92%;
-  }
 }
 
 @media only screen and (max-width: 1140px) {
@@ -63,5 +60,11 @@ div.card-action.action-links {
 @media only screen and (max-width: 1070px) {
   img.globe-logo {
     max-width: 80%;
+  }
+}
+
+@media only screen and (max-width: 434px) {
+  a.brand-logo {
+    font-size: 1.5rem;
   }
 }
